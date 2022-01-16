@@ -8,7 +8,7 @@
     background-color: rgb(207, 201, 201);
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
-    width: 400px;
+    width: 100px;
 }
 .sidebar nav{
 padding: 75px 10px;
@@ -42,7 +42,7 @@ padding: 75px 10px;
     width: 80vw;
     padding: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content:last baseline;
 }
 .devInfo{
     display: flex;
@@ -62,8 +62,9 @@ padding: 75px 10px;
     font-size: 30px;
 }
 .moreabout{
-    font-size: 22px;
-    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     margin-top:23px ;
 }
 .btn{
@@ -190,8 +191,13 @@ width: 50px;
       background-color: lightgreen;
     }*/
     /**This is All For Home Page ****/
-    .devPic{
-        display: none;
+    .infoContainer{
+        margin-top: 12px;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+     .devPic img{
+       display: none;
        }
     .hello{
         font-size: 45px;
