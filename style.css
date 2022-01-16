@@ -172,7 +172,7 @@ p{   font-family: 'Source Code Pro', monospace;
 }
 
 /********************Making Pages Responsive************************/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     .sidebar{
     margin:0px;
     align-items: center;
